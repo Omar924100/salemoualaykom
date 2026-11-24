@@ -1,0 +1,11 @@
+**/.env
+**/.env.*
+!**/.env.example
+**/flags.json
+**/flag.txt
+**/writeup/
+**/WRITEUP*.md
+**/solve.py
+**/__pycache__/
+**/*.pyc
+**/data/

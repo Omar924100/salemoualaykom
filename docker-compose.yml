@@ -1,0 +1,9 @@
+services:
+  sqli-employee-portal:
+    build: .
+    ports:
+      - "5001:5000"
+    environment:
+      # Remplace par le flag de ta plateforme avant publication
+      CHALLENGE_FLAG: "UNIALONE{sql_1nj3ct10n_un10n_pwn}"
+    restart: unless-stopped
